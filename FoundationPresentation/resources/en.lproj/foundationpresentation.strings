@@ -1,0 +1,425 @@
+/* 
+  foundationpresentation.strings
+  FoundationPresentation
+
+  Created by Anderson, Brian on 12/19/14.
+  Copyright (c) 2014 PayPal. All rights reserved.
+*/
+
+"ok" = "OK";
+"notNow" = "Not Now";
+"next" = "Next";
+"yes" = "Yes";
+"no" = "No";
+"turnItOn" = "Turn It On";
+"done" = "Done";
+"loading" = "Loading";
+
+// Common
+"common.string.cancel" = "Cancel";
+"common.string.continue" = "Continue";
+
+
+"accountcredentials.title" = "Login";
+
+"loginScreen.pinTextField.placeholder" = "Enter your PIN";
+"loginScreen.emailTextField.placeholder" = "Email";
+"loginScreen.phoneTextField.placeholder" = "Phone number";
+"loginScreen.emailPhoneTextField.placeholder" = "Email (or phone for mobile accounts)";
+"loginScreen.useEmailButton.text" = "Use email instead";
+"loginScreen.usePhoneButton.text" = "Use phone number instead";
+"loginScreen.passwordTextField.placeholder" = "Password";
+"loginScreen.emailText.label" = "Email";
+"loginScreen.passwordText.label" = "Password";
+"loginScreen.signupButton.text" = "New to PayPal? Sign up";
+"loginScreen.forgotButton.text" = "Forgot?";
+"loginscreen.credentials.error.text" = "Check your info and try again.";
+"loginScreen.loginButton.text" = "Log In";
+"loginScreen.options.button.accessibility.label" = "Login options";
+
+"loginScreen.loginOption.switchAccount" = "Switch accounts";
+"loginScreen.loginOption.loginWithPassword" = "Use your password";
+"loginScreen.loginOption.loginWithPin" = "Use your PIN";
+"loginScreen.loginOption.loginWithTouchID" = "Use your Touch ID";
+"loginScreen.loginOption.loginWithFaceID" = "Use your Face ID";
+"loginScreen.loginOption.cancel" = "Cancel";
+"loginScreen.loginOption.forgotPassword" = "Forgot your password?";
+
+
+// Number pad
+"numberpad.button.zero.text" = "0";
+"numberpad.button.one.text" = "1";
+"numberpad.button.two.text" = "2";
+"numberpad.button.three.text" = "3";
+"numberpad.button.four.text" = "4";
+"numberpad.button.five.text" = "5";
+"numberpad.button.six.text" = "6";
+"numberpad.button.seven.text" = "7";
+"numberpad.button.eight.text" = "8";
+"numberpad.button.nine.text" = "9";
+"numberpad.button.backspace.accessibility.label" = "Backspace";
+"numberpad.accessibility.label" = "Number pad";
+
+// TouchID LocalAuthentication
+"touchID.login.evalautePolicy" = "Log in with your Touch ID";
+"touchID.login.evalautePolicy.thirdPartySinglePayment" = "Log in with your Touch ID to continue checkout";
+"touchID.login.fallback.password" = "Enter Password";
+"touchID.login.featureDisabledAlert.title" = "Touch ID isn't available";
+
+
+// FaceID LocalAuthentication
+"faceID.login.evalautePolicy" = "Log in with your Face ID";
+"faceID.login.evalautePolicy.thirdPartySinglePayment" = "Log in with your Face ID to continue checkout";
+"faceID.login.featureDisabledAlert.title" = "Face ID isn't available";
+
+// Touch ID sub title used on Siri extension since title doesn't show app name "PayPal"
+"touchID.login.subtitle" = "Login with Touch ID for PayPal";
+
+// Face ID sub title used on Siri extension since title doesn't show app name "PayPal"
+"faceID.login.subtitle" = "Login with Face ID for PayPal";
+
+// TwoLa
+"2LA.screenTitle" = "Confirm Your Identity";
+
+// TwoFa
+"2fa.requestCode.screenTitle" = "Security Code";
+"2fa.requestCode.screenTitle_AU" = "Security Code";
+"2fa.requestCode.header.multipleTokens" = "We’ll send you a text message with a unique security code. Just tell us which number to send the text to.";
+"2fa.requestCode.header.multipleTokens_AU" = "We’ll SMS you a unique security code. Just tell us which number to SMS.";
+"2fa.requestCode.label.mobile" = "Mobile %@";
+"2fa.requestCode.button.title.continue" = "Send the Text";
+"2fa.requestCode.button.title.continue_AU" = "Send SMS";
+"2fa.requestCode.button.title.continue_DE/AT" = "Send SMS";
+
+"2fa.enterCode.codeSent" = "Sent!";
+"2fa.enterCode.resendCode" = "Sending code";
+"2fa.enterCode.screenTitle" = "Security Code";
+"2fa.enterCode.header" = "Please type in the code from the text we sent to %@.";
+"2fa.enterCode.header_AU" = "Type in the code from the SMS we sent to %@.";
+"2fa.enterCode.field.placeholder" = "Security Code";
+"2fa.enterCode.button.title.continue" = "Next";
+"2fa.enterCode.footer.middle" = "Send the code again";
+"2fa.enterCode.footer.left_AU" = "Didn’t get our text? ";
+"2fa.enterCode.footer.middle_AU" = "We can send it again";
+"2fa.enterCode.footer.right_AU" = ".";
+"2fa.enterCode.footer.left_DE/AT" = "Didn’t get our text? ";
+"2fa.enterCode.footer.middle_DE/AT" = "Send again";
+"2fa.enterCode.footer.right_DE/AT" = ".";
+"2fa.enterCode.footer.left_GB" = "Didn’t get our text? ";
+"2fa.enterCode.footer.middle_GB" = "Send it again";
+"2fa.enterCode.footer.right_GB" = ".";
+
+"2fa.securityKeyLocked.screenTitle" = "Security Code";
+"2fa.securityKeyLocked.header" = "Your Security Key is locked";
+"2fa.securityKeyLocked.body" = "Sorry, we weren’t able to confirm your info.";
+"2fa.securityKeyLocked.description" = "To unlock your Security Key, tap Unlock. Or go to your Profile on the PayPal website.";
+"2fa.securityKeyLocked.contactUs.left" = "Having trouble?";
+"2fa.securityKeyLocked.contactUs.middle" = " Call us for help";
+"2fa.securityKeyLocked.contactUs.right" = ".";
+"2fa.securityKeyLocked.reactivate" = "Unlock";
+
+// Call Us popup
+
+"callUsPopup.title" = "Call Us";
+"callUsPopup.message" = "Would you like to call PayPal Customer Support at %@?\n\nThe standard rates charged by your mobile phone carrier will apply, including any international charges for international calls.";
+"callUsPopup.callButton" = "Call";
+"callUsPopup.cancelButton" = "Cancel";
+"callUsPopup.deviceUnsupported.title" = "Device Unsupported";
+"callUsPopup.deviceUnsupported.message" = "\n\n\nPlease call PayPal Customer Support at %@.";
+"callUsPopup.deviceUnsupported.dismissButton" = "OK";
+"callUsPopup.customerServicePhoneNumber" = "1-855-684-1966";//Phone Number
+"callUsPopup.customerServicePhoneNumber_CA" = "1-866-914-8075";//Phone Number
+"callUsPopup.customerServicePhoneNumber_GB" = "08707-307-191";//Phone Number
+"callUsPopup.customerServicePhoneNumber_AU" = "1-800-073-263";//Phone Number
+"callUsPopup.customerServicePhoneNumber_AT" = "49 180 500 66 27";//Phone Number
+"callUsPopup.customerServicePhoneNumber_DE" = "0180 500 66 27";//Phone Number
+
+"2fa.unsupportedSecurityKey.header" = "Put your PayPal Security Key on your mobile phone";
+"2fa.unsupportedSecurityKey.body" = "Sorry, we don’t support the old PayPal Security Key device in the app. But you can get the new digital version on your phone. Same security, less to carry.";
+"2fa.unsupportedSecurityKey.register" = "Get Your New Security Key";
+
+//PIN Promotion
+"enablePIN.dialog.button.agree" = "Use Your PIN";
+"enablePIN.dialog.button.deferToLater" = "Not Now";
+"enablePIN.dialog.label.title" = "Next time, log in faster using your PIN.";
+"enablePIN.confirm.label.title" = "Now you can log in using your PIN";
+"enablePIN.confirm.button.ok" = "OK";
+"enablePIN.changeYourPIN.button" = "Change your PIN";
+
+
+// Touch ID Strings
+"touchID.enrollment.viewController.title" = "Touch ID";
+"touchID.enrollment.touchID.title" = "Log in with Touch ID";
+"touchID.enrollment.touchID.body" = "Use your Touch ID for faster, easier access to your PayPal account.";
+"touchID.enrollment.touchID.disclaimer" = "Remember: All of the Touch ID fingerprints stored on this device can be used to log into your PayPal account.";
+"touchID.enrollment.button.setUpTouchID" ="￼Use Touch ID";
+"touchID.enrollment.button.notNow"= "Not Now";
+"touchID.enrollment.button.decline"= "No Thanks";
+
+"touchID.evalautePolicy" = "Confirm your fingerprint now.";
+"touchID.errorAlert.title" = "Can't confirm your Touch ID";
+"touchID.errorFailureAlert.message" = "We’re having trouble confirming your Touch ID right now.";
+
+"touchID.errorAlert.cancel.skip" = "Skip";
+"touchID.errorAlert.cancel.cancel" = "Cancel";
+"touchID.errorAlert.other.tryAgain" = "Try Again";
+"touchID.confirmationAlertViewController.titleLabel" = "Touch ID is ready to go";
+"touchID.confirmationAlertViewController.button"= "OK";
+"touchID.errorNotSupportedAlert.message" = "Touch Id is currently not supported";
+"touchID.errorAlert.cancel.OK"= "OK";
+
+// Face ID Strings
+"faceID.enrollment.viewController.title" = "Face ID";
+"faceID.enrollment.faceID.title" = "Log in with Face ID";
+"faceID.enrollment.faceID.body" = "Use your Face ID for faster, easier access to your PayPal account.";
+"faceID.enrollment.button.setUpFaceID" ="￼Use Face ID";
+
+"faceID.evalautePolicy" = "Confirm your Face ID now.";
+"faceID.errorAlert.title" = "Can't confirm your Face ID";
+"faceID.errorFailureAlert.message" = "We’re having trouble confirming your Face ID right now.";
+"faceID.confirmationAlertViewController.titleLabel" = "Face ID is ready to go";
+"faceID.errorNotSupportedAlert.message" = "Face ID is currently not supported";
+"faceID.enrollment.faceID.disclaimer" = "PayPal does not recommend turning on Face ID if you have twins or siblings who look like you.";
+
+// Add Email Strings
+"addEmail.enrollment.title" = "Let's make sure we can reach you";
+"addEmail.enrollment.subtitle" = "You have turned off text message notifications. Add your email so we can reach you if there's ever an issue with your account.";
+"addEmail.button.title" = "Add Email";
+
+// Device Notifications opt out Strings
+"deviceNotifications.optOut.title" = "Let’s make sure we can reach you";
+"deviceNotifications.optOut.subtitle" = "Turn on push notifications or add your email address so we can reach you if there's ever an issue with your account.";
+"deviceNotifications.optOut.getNotifications.button.title" = "Get Notifications";
+
+// Locked Account Strings
+"accountLocked.button.dismiss.accessibilityLabel" = "Dismiss";
+
+// Keep Me Logged In Strings
+"stay.logged.in" = "Stay logged in for faster checkout";
+"kmli.consent.title" = "Next time, skip login with PayPal One Touch™";
+"kmli.consent.instructions.text.1" = "•  No more typing in your password every time you shop on this device.";
+"kmli.consent.instructions.text.2" = "•  Speed through checkout at select merchants.";
+"kmli.consent.instructions.text.3" = "•  You’re in control - you can turn this off at any time.";
+"kmli.consent.sub.instructions.text" = "We’ll always ask you to log in to update your PayPal personal or financial info.";
+"kmli.consent.sub.instructions.text.1" = "If you share this device, consider turning off One Touch before handing it to a friend or family member.";
+"kmli.consent.agree.button.title" = "Activate";
+"kmli.consent.decline.button.title" = "Not Now";
+"kmli.expiry.dialog.title" = "Turn One Touch™ back on";
+"kmli.expiry.dialog.message.text.1" = "No more typing in your password every time you shop on this device.";
+"kmli.expiry.dialog.message.text.2" = "You’re in control - you can turn this off at any time.";
+"kmli.expiry.dialog.turn.it.on" = "Turn it On";
+
+
+// Future Payment consent strings
+"future.payment.consent.header" = "Future Payments Consent";
+"future.payment.consent.title" = "%1$@ asks that you:";
+"future.payment.consent.approval.bullet" = "•  Preapprove your future payments made from your PayPal account without logging in to PayPal each time.";
+"future.payment.consent.approval.sub.bullet" = "PayPal will first use your PayPal balance to pay for purchases. If that doesn’t cover the total, your bank account, PayPal Credit, debit card, credit card, and/or eCheck will be used in that order.";
+"future.payment.consent.profile.sharing.bullet" = "•  Share contact information";
+"future.payment.consent.profile.sharing.sub.bullet" = "Full Name, Email address, Address.";
+"future.payment.consent.merchant.bullet"= "•  Agree to %1$@'s <a href='%2$@'>privacy policy</a> and <a href='%3$@'>user agreement</a>.";
+"future.payment.consent.privacy" = "PayPal helps protect your financial information.";
+"future.payment.consent.privacy.details" = "To remove these permissions, log in to PayPal and go to <b>Profile > Preapproved payments > Log In with PayPal</b>, and simply remove %1$@ from the list.";
+"future.payment.consent.agree.button.title" = "Agree";
+"future.payment.consent.decline.button.title" = "Cancel";
+
+// Single payment Hermes checskout strings
+
+"cancel.checkout.confirm.title" = "Cancel this purchase?";
+"cancel.checkout.confirm.message" = "Are you sure you want to cancel this purchase and go back to the merchant's site?";
+"checkout.cancel.option.yes" = "Yes";
+"checkout.cancel.option.no" = "No";
+"error.message" = "Some error has occured";
+
+
+//ATO Notifications
+// Decision Screen
+"ato.decision.navigation.title" = "Protecting your account";
+"ato.purchase.decision.message" = "Are you making this %1$@ purchase at %2$@ right now?";
+"ato.login.decision.message" = "Are you trying to log in from another computer or phone right now?";
+"ato.decision.accept.button.title" = "Yes, I am";
+"ato.decision.deny.button.title" = "That's Not Me";
+// Denied Screen
+"ato.purchase.denied.title" = "We stopped the purchase at %1$@";
+"ato.login.denied.title" = "We stopped that login attempt";
+"ato.denied.message" = "If something looks suspicious with your account, change your password or call us for help.";
+// Approved Screen
+"ato.approved.title" = "Thanks for confirming. You're all set";
+"ato.approved.dismiss.title" = "OK";
+// Timeout Before Decision screen
+"ato.purchase.timeout.message.title" = "We stopped a %1$@ purchase at %2$@ on %3$@ at %4$@";
+"ato.login.timeout.message.title" = "We stopped a login to your account";
+"ato.purchase.timeout.message.description" = "It looked suspicious, so we contacted you right away. We stopped the purchase because we didn't hear back from you.";
+"ato.login.timeout.message.description" = "We contacted you because we didn't recognize the phone or computer. We stopped the login because we didn't hear back from you.";
+"ato.purchase.timeout.changepassword" = "If you don't recognize this purchase, change your password.";
+"ato.login.timeout.changepassword" = "If that wasn't you, change your password.";
+"ato.purchase.timeout.callus" = "If you have any questions, please call us.";
+"ato.login.timeout.callus" = "For help, please call us.";
+// Timedout After Approved screen
+"ato.purchase.timeout.afterapproved.message.title" = "We stopped this purchase";
+"ato.login.timeout.afterapproved.message.title" = "Why you couldn't log in";
+"ato.purchase.timeout.afterapproved.message.description" = "Sorry about that. Looks like you didn't confirm soon enough. Please try your purchase again.";
+"ato.login.timeout.afterapproved.message.description" = "Sorry about that. Looks like you didn't confirm soon enough. Please try that again.";
+"ato.timeout.afterapproved.message.body" = "When we see suspicious activity on your account, we contact you right away to confirm it's you.";
+// Confirmed on web
+"ato.purchase.confirmedonweb.message.title" = "We completed your purchase";
+"ato.login.confirmedonweb.message.title" = "We logged you in";
+"ato.purchase.confirmedonweb.message.description" = "It looks like you confirmed your purchase online after we sent this notification. No need to do anything else.";
+"ato.login.confirmedonweb.message.description" = "It looks like you confirmed online that you were logging in after we sent this notification. No need to do anything else.";
+"ato.confirmedonweb.message.suggestion" = "If something doesn't look right, you can change your password or call us for help.";
+"ato.login.confirmedonweb.message.suggestion" = "If something looks suspicious with your account, change your password or call us for help.";
+// 2LA hard failed
+"ato.purchase.2lafailed.message.title" = "We stopped this purchase";
+"ato.login.2lafailed.message.title" = "We stopped a login at %1$@";
+"ato.purchase.2lafailed.message.description" = "There's currently a problem with your account. For your security, we stopped your purchase at %1$@.";
+"ato.login.2lafailed.message.description" = "There's currently a problem with your account, so we stopped the login for your security.";
+"ato.purchase.2lafailed.message.suggestion" = "For help, log in to your PayPal account or call us.";
+"ato.login.2lafailed.message.suggestion" = "For help, log in to your PayPal account from this device or call us.";
+//Generic buttons
+"ato.callus.button.title" = "Call Us";
+"ato.changepassword.button.title" = "Change Password";
+
+
+//Steup, CIP / KYC Flows
+
+"urichallenge.stepup.landing.title" = "A quick security check";
+"urichallenge.stepup.landing.description" = "Please take a moment to confirm your device. This lets us know it’s really you using PayPal and helps protect you against fraud.";
+
+"urichallenge.cip.landing.title" = "Confirm your info before you continue";
+"urichallenge.cip.landing.description" = "Please take a moment to provide some info that’s required to use this feature.";
+
+"urichallenge.landing.notnow.button.title" = "Not Now";
+"urichallenge.landing.continue.button.title" = "Next";
+
+"urichallenge.cip.webview.fallback.title" = "Confirm your identity first";
+"urichallenge.stepup.webview.fallback.title" = "A quick security check";
+"urichallenge.cip.failed.title" = "Identity Confirmation";
+"urichallenge.cip.failed.message" = "We need help confirming your identity. Please visit the Resolution Center on paypal.com to complete the process.";
+"urichallenge.cip.failed.identity.flow.title" = "We need a bit more info";
+"urichallenge.cip.failed.identity.flow.message" = "Go to the identity section in your Profile to send us the info.";
+"urichallenge.cip.failed.identity.flow.button.title" = "Go To Your Profile";
+
+"urichallenge.failed.title" = "Call us to confirm your info";
+"urichallenge.failed.message" = "It looks like we need to do this another way. Give us a call and we’ll help get you set up to use this feature.";
+"urichallenge.failed.callus.button.title" = "Call Us";
+
+//Change PIN
+"changePin.nextButton.title" = "Next";
+"changePin.textField.placeholder" = "Enter new PIN";
+"changePin.navigationBar.title" = "Change your PIN";
+"changePin.confirmPageButton.title" = "Next";
+"changePin.reenterTextField.placeholder" = "Enter your PIN again";
+"changePin.confirmNavigationBar.title" = "Confirm your PIN";
+"changePin.success.message" = "You can now log in using your new PIN";
+"changePin.success.okButton" = "OK";
+"changePin.userInfoLabel.text" ="Your PIN can be 4-8 numbers. Make sure you choose one that’s hard to guess.";
+"changePin.userInfoLabel.minSixDigits.text" ="Your PIN can be 6-8 numbers. Make sure you choose one that’s hard to guess.";
+"changePin.pinConfirmMismatch.Error" ="That didn't match. Try again.";
+"changePin.switchDigitButton.title" = "Use a 4-8 Digit PIN";
+"changePin.alertMessage.title" = "Are you sure you want to use a 4-8 Digit PIN?";
+"changePin.alertMessage.text" = "Commonly used 4-Digit PINs are easy to guess and less secure";
+
+// Device Verification
+
+"deviceVerification.submitPhoneNumber.navbar.title" = "Confirm your phone";
+"deviceVerification.navbar.submitVerificationCode.title" = "Confirmation Code";
+"deviceVerification.navbar.button.skip" = "Skip";
+
+"deviceVerification.consent.label.title" = "Let's confirm your phone";
+"deviceVerification.consent.label.description" = "We've made some updates to the app, and you'll need a confirmed phone to use some of the cool new features.";
+"deviceVerification.consent.button.notNow" = "Not Now";
+"deviceVerification.consent.button.confirmPhone" = "Confirm Phone";
+
+"deviceVerification.submitPhoneNumber.textField.placeholder" = "Enter your mobile number";
+"deviceVerification.submitPhoneNumber.agreementLabel" = "By continuing, you confirm that you're authorized to use this phone number and agree to receive a text.\nCarrier fees may apply.";
+"deviceVerification.submitPhoneNumber.button.sendText" = "Send the Text";
+"deviceVerification.submitPhoneNumber.button.changeNumber" = "Use a different number";
+
+"deviceVerification.submitVerificationCode.textField.placeholder" = "Confirmation Code";
+"deviceVerification.submitVerificationCode.label.description" = "Type in the confirmation code from the text we sent to %@.";
+"deviceVerification.submitVerificationCode.button.sendCodeAgain" = "Send the code again";
+"deviceVerification.submitVerificationCode.button.confirmPhone" = "Next";
+"deviceVerification.confirmed.label.title" = "Thanks! You confirmed your phone.";
+"deviceVerification.confirmed.button.done" = "Done";
+
+//Create PIN
+"createPinConsent.descriptionLabel.text" = "Next time, log in faster using a PIN";
+"createPinConsent.createPinButton.text" = "Create a PIN";
+"createPin.textField.placeholder" = "Create a PIN";
+"createPin.navigationBar.title" = "Create a PIN";
+"createPin.userInfoLabel.text" = "Your PIN can be 4-8 numbers. Make sure you choose one that’s hard to guess.";
+"createPin.userInfoLabel.minSixDigits.text" = "Your PIN can be 6-8 numbers. Make sure you choose one that’s hard to guess.";
+"createPin.switchDigitButton.title" = "Use a 4-8 Digit PIN";
+"createPin.alertMessage.title" = "Are you sure you want to create a 4-8 Digit PIN?";
+"createPin.alertMessage.text" = "Commonly used 4-Digit PINs are easy to guess and less secure";
+"createPinConfirm.createbutton.title" = "Create";
+"createPinConfirm.reenterTextField.placeholder" = "Enter your PIN again";
+"createPinConfirm.navigationBar.title" = "Confirm your PIN";
+"createPinConfirm.pinMismatch.Error" = "That didn't match. Try again.";
+"createPinSuccess.messageLabel.text" = "Now you can log in using your PIN";
+
+//TPD
+// TPD Policy Enrollment Screen
+"tpd.enrollment.web.title" = "Touch ID on the web";
+"tpd.enrollment.web.titleWithFaceID" = "Face ID on the web";
+"tpd.enrollment.web.body" = "Seamlessly log in to PayPal using your fingerprint on this device. Touch ID gives you convenient and secure access to PayPal anywhere on the web.";
+"tpd.enrollment.web.bodyWithFaceID" = "Seamlessly log in to PayPal using your Face ID on this device. Face ID gives you convenient and secure access to PayPal anywhere on the web.";
+"tpd.enrollment.web.disclaimer" = "";
+"tpd.enrollment.web.button.turnon" = "Activate";
+"tpd.enrollment.web.button.notNow" = "Not Now";
+"tpd.enrollment.errorAlert.cancel.skip" = "Skip";
+"tpd.enrollment.cancel.cancel" = "Cancel";
+"tpd.login.consent.yesthatsme" = "Yes, That's Me";
+"tpd.enrollment.errorAlert.other.tryAgain" = "Try Again";
+
+// TPD Enrollment Confirmation Screen
+"tpd.confirmationViewController.titleLabel" = "Got it!";
+"tpd.confirmationViewController.bodyLabel" = "Use Touch ID on this device to access your PayPal account on the web.";
+"tpd.confirmationViewController.bodyLabelWithFaceID" = "Use Face ID on this device to access your PayPal account on the web.";
+"tpd.confirmationViewController.button.ok" = "OK";
+"tpd.confirmationViewController.button.tryme" = "Try It Out Now";
+// Trusted Primary Device (TPD)
+"tpd.login.consent.title" = "Approve log in request";
+"tpd.login.consent.description" = "Are you trying to log in to PayPal?";
+"tpd.login.consent.notme" = "Not me";
+"tpd.login.consent.ignore" = "Ignore";
+
+"tpd.login.cancel.title" = "Login attempt canceled";
+"tpd.login.cancel.description" = "If you think there’s a problem with your account, go to Settings and change your log in options.";
+"tpd.login.cancel.securitySettings" = "Security Settings";
+
+"tpd.login.alertMessage.text" = "We’re having trouble recognizing your fingerprint right now.";
+"tpd.login.alertMessage.textWithFaceID" = "We’re having trouble recognizing your Face ID right now.";
+"tpd.login.alertMessage.title" = "Sorry, we can’t confirm it’s you";
+
+"tpd.identity.confirmed.description" = "Please go back to your browser to continue.";
+"tpd.login.identity.confirmed.title" = "That's you!";
+
+"tpd.login.cancelled.title" = "Login canceled";
+"tpd.login.cancelled.description" = "Let’s log you in another way. Go back to your browser to continue.";
+
+"tpd.login.verification.title" = "Choose the code you see in your browser";
+"tpd.login.verification.description" = "This just helps Paypal make sure it's you.";
+
+"tpd.expired.alert.description" = "We didn’t receive a response from you so your request timed out.";
+"tpd.expired.alert.title" = "We couldn’t log you in to the web";
+"tpd.expired.alert.notme" = "Not Me";
+
+"tpd.login.confirmed.on.web.title" = "We logged you in";
+"tpd.login.confirmed.on.web.description" = "It looks like you confirmed online that you were logging in after we sent this notification. No need to do anything else.";
+"tpd.login.confirmed.on.web.suggestion" = "If you think there’s a problem with your account, go to Settings and change your log in options.";
+"tpd.login.confirmed.on.web.securitySettings" = "Security Settings";
+
+//User Preview
+"userPreview.consent.title" = "Skip logging in for certain activities";
+"userPreview.consent.description" = "Good news! Your trusted device allows you to interact with certain features on the PayPal app without having to log in each time. Would you like to activate this feature?";
+"userPreview.consent.description2" = "You can now see your balance and activity, send money to recent contacts, make purchases, and more without logging in each time.";
+
+"userPreview.consent.disclaimer" = "For your security, we’ll occasionally ask you to log in, including every time you update your financial or account info. This feature is not recommended for shared devices. You can revoke this permission at any time in PayPal Settings.";
+
+"userPreview.consent.errorAlert.cancel.skip" = "Skip";
+"userPreview.consent.errorAlert.other.tryAgain" = "Try Again";
+
+//Onboarding Webview
+"onboarding.webview.navigation.title" = "Create account";
+"onboarding.webview.loginFailure.text" = "Please log in to access your new account.";
